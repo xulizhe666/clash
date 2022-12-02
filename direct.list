@@ -1,3 +1,5 @@
 #一些自用直连
 DOMAIN-SUFFIX,godxu.xyz
 DOMAIN-SUFFIX,ncepu.edu.cn
+#azure 服务器地址
+IP-CIDR,20.39.186.236/32
