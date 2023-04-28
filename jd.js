@@ -1,3 +1,10 @@
+[rewrite_local]
+# 获取京东Cookie. 
+^https:\/\/mars\.jd\.com\/log\/sdk url script-request-header https://raw.githubusercontent.com/xulizhe666/clash/main/jd.js
+
+[mitm]
+hostname = mars.jd.com
+
 /**
  * @supported 9E1BBA07
  */
