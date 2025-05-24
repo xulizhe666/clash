@@ -1,2 +1,4 @@
-192.168.0.0/16 remoteproxy
-0.0.0.0/0 direct
+[proxy_list]
+192.168.0.0/16
+[bypass_list]
+0.0.0.0/0
